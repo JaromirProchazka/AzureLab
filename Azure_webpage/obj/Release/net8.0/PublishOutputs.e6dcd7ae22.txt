@@ -1,0 +1,16 @@
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure_webpage.exe
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure_webpage.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure_webpage.deps.json
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure_webpage.runtimeconfig.json
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure_webpage.pdb
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Blobs.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Common.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\System.ClientModel.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\System.IO.Hashing.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\Azure_webpage\obj\Release\net8.0\PubTmp\Out\System.Memory.Data.dll

@@ -1,0 +1,6 @@
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\ConsoleApp\obj\Release\net9.0\PubTmp\Out\app_data\Jobs\Continuous\ConsoleApp\Settings.job
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\ConsoleApp\obj\Release\net9.0\PubTmp\Out\app_data\Jobs\Continuous\ConsoleApp\ConsoleApp.exe
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\ConsoleApp\obj\Release\net9.0\PubTmp\Out\app_data\Jobs\Continuous\ConsoleApp\ConsoleApp.dll
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\ConsoleApp\obj\Release\net9.0\PubTmp\Out\app_data\Jobs\Continuous\ConsoleApp\ConsoleApp.deps.json
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\ConsoleApp\obj\Release\net9.0\PubTmp\Out\app_data\Jobs\Continuous\ConsoleApp\ConsoleApp.runtimeconfig.json
+C:\Users\jarom\Desktop\PG_EXER\Azure\Azure_webpage\ConsoleApp\obj\Release\net9.0\PubTmp\Out\app_data\Jobs\Continuous\ConsoleApp\ConsoleApp.pdb
