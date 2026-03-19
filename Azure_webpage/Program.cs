@@ -1,4 +1,11 @@
+using Azure.Extensions.AspNetCore.Configuration.Secrets;
+
 var builder = WebApplication.CreateBuilder(args);
+
+if (builder.Environment.IsProduction())
+{
+	builder.Configuration.AddAzureKeyVault(new Uri("https://mysecuredemokeyvault.vault.azure.net/"), new Azure.Identity.DefaultAzureCredential());
+}
 
 // Add services to the container.
 builder.Services.AddRazorPages();

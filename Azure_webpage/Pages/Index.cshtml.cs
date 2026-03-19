@@ -3,6 +3,7 @@ using Azure.Storage.Blobs.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
+using Azure.Identity;
 
 namespace MyWebApplication.Pages
 {
@@ -11,6 +12,8 @@ namespace MyWebApplication.Pages
 		// TODO: Hodnoty by bylo správné dát do konfigurace. Pro pøehlednost a mít vše na jednom místì za úèelem studia, nechávám tuto zjednodušenou variantu.
 		private const string AzureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=mystoraccountdemo;AccountKey=vSbs69SYRbXOsURUULN6F05EJ33/Hnw2qiEgPAU1gU2BFfK4vhUVjWBId83V8Yr4Zn1jGxVjMpMl+AStiOqPhA==;EndpointSuffix=core.windows.net";
 		private const string AzureStorageContainerName = "mydemocontainer";
+		private const string AzureStorageName = "mystoraccountdemo";
+		private const string AzureStorageUrl = $"https://{AzureStorageName}.blob.core.windows.net/{AzureStorageContainerName}";
 
 		public List<BlobItem> Blobs { get; set; } = new List<BlobItem>();
 
@@ -31,7 +34,8 @@ namespace MyWebApplication.Pages
 
 		private BlobContainerClient CreateClient()
 		{
-			return new Azure.Storage.Blobs.BlobContainerClient(AzureStorageConnectionString, AzureStorageContainerName);
+			//return new Azure.Storage.Blobs.BlobContainerClient(AzureStorageConnectionString, AzureStorageContainerName); // old way from lab 3
+			return new Azure.Storage.Blobs.BlobContainerClient(new Uri(AzureStorageUrl), new DefaultAzureCredential()); // new from lab 6
 		}
 	}
 }
