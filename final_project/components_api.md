@@ -30,6 +30,8 @@ and the zipped logs data stream. The timestamp format is `YYYY-MM-DDTHH:mm:ss.SS
 
 ## Get Anomalies
 
+Done by Technicians from their mobile app.
+
 **Request Method:** `GET`
 
 **Request Query Parameters:**
@@ -49,7 +51,7 @@ and the zipped logs data stream. The timestamp format is `YYYY-MM-DDTHH:mm:ss.SS
 ```json
 {
   "responsibleTechnicianId": "0c8af4d3-3d3b-4f43-b188-47910f3f00f0",
-  "anomalies": [ # list of anomalies
+  "anomalies": [ // list of anomalies
         {
             "deviceId": "device1",
             "eventId": "2d1a3311-6677-4b53-b09b-626ba8ba484b",
