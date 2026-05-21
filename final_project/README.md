@@ -1,6 +1,6 @@
 #  Anomaly detection System
 
-This project descries an Azure cloud system for detecting anomalies in log dumps of IoT Devices. Aldough in this specification, the domains of Service Support Application and Machine Learning Engineering Teams for this project, this specification is mainly written for the purposes of the Cloud Platform Team which is responcible for the Azure cloud integration.
+This project descries an Azure cloud system for detecting anomalies in log dumps of IoT Devices. Aldough in this specification, the domains of Service Support Application and Machine Learning Engineering Teams is also described, this specification is mainly written for the purposes of the Cloud Platform Team which is responcible for the Azure cloud integration.
 
 ## File structure
 
