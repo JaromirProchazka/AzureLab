@@ -34,15 +34,15 @@ and the zipped logs data stream. The timestamp format is `YYYY-MM-DDTHH:mm:ss.SS
 
 **Request Query Parameters:**
 
-- `technitianId` - id of the technitian (example: "0c8af4d3-3d3b-4f43-b188-47910f3f00f0")
+- `technicianId` - id of the technician (example: "0c8af4d3-3d3b-4f43-b188-47910f3f00f0")
 
 **Request Body:** None
 
 **Response Code:**
 
 - `200 OK` - Anomalies fetched
-- `204 No Content` - No Anomalies for this technitian found
-- `400 Bad Request` - Technitian ID not found
+- `204 No Content` - No Anomalies for this technician found
+- `400 Bad Request` - Technician ID not found
 
 **Response Body:**
 
@@ -88,14 +88,14 @@ Used by the Service Support Application Team Backend to fetch the Technicians in
 
 **Request Query Parameters:**
 
-- `technitianId` - id of the technitian (example: "0c8af4d3-3d3b-4f43-b188-47910f3f00f0")
+- `technicianId` - id of the technician (example: "0c8af4d3-3d3b-4f43-b188-47910f3f00f0")
 
 **Request Body:** None
 
 **Response Code:**
 
-- `200 OK` - Technitians fetched
-- `400 Bad Request` - Technitian ID not found
+- `200 OK` - Technicians fetched
+- `400 Bad Request` - Technician ID not found
 
 **Response Body:**
 
