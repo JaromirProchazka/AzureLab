@@ -52,12 +52,33 @@ and the zipped logs data stream. The timestamp format is `YYYY-MM-DDTHH:mm:ss.SS
   "anomalies": [ # list of anomalies
         {
             "deviceId": "device1",
+            "eventId": "2d1a3311-6677-4b53-b09b-626ba8ba484b",
+            "timestamp": "2026-05-20T15:27:00.123456Z",
             "location": "c05a3ec5-7460-4f84-ba80-55ce62bf0e95",
             "anomalyDescription": "..."
         }
   ]
 }
 ```
+
+## Finish Anomaly
+
+**Request Method:** `POST`
+
+**Request Query Parameters:**
+
+- `deviceId` - id of the device (example: "device1")
+- `eventId` - id of the event which created this anomaly (example: "2d1a3311-6677-4b53-b09b-626ba8ba484b")
+- `timestamp` - timestamp of the anomaly creation (example: "2026-05-20T15:27:00.123456Z")
+
+**Request Body:** None
+
+**Response Code:**
+
+- `200 OK` - Anomaly status updated
+- `400 Bad Request` - Anomaly not found
+
+**Response Body:** None
 
 ## Fetch Technicians (Private)
 
