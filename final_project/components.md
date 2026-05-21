@@ -23,9 +23,13 @@
   - Poison event behaviour: malformed event skipped
   - Checkpointing rule: blob archival success
 
-**autoscaling:**
+**Autoscaling:**
 
-- autoscaling metric hierarchy: 1. Partition lag time 2. Partition lag count 3. CPU 4. Memory
+- autoscaling metric hierarchy:
+  1. Partition lag time
+  2. Partition lag count
+  3. CPU
+  4. Memory
 
 1. Trigger 1 - Lag count
 
@@ -67,9 +71,9 @@ We use the `Asynchronous Gauge` to measure the Event Hub lag count since it is a
 - Anomalies W is write-optimized anomaly persistence store.
   - append-oriented
   - entities are immutable after creation except for status fields
-- The exact schema of the table depends on the results of the Anomaly detection algorithm. However the table uses the deviceId, eventId and timestamp as a row key.
-  - there is also synced column which denotes if the row is synced with the Anomalies W database (default False)
-- DeviceId is the partition key
+- The exact schema of the table depends on the results of the Anomaly detection algorithm. However the table uses the `deviceId`, `eventId` and `timestamp` as a row key.
+  - there is also `synced` column which denotes if the row is synced with the Anomalies W database (default False)
+- `DeviceId` is the partition key
 
 **Synchronization:**
 
@@ -95,7 +99,7 @@ We use the `Asynchronous Gauge` to measure the Event Hub lag count since it is a
 
 **Synchronization:**
 
-- Sync Function MUST use UPSERT (InsertOrReplace) semantics.
+- Sync Function uses UPSERT (InsertOrReplace) semantics.
 
 ## Sync
 
@@ -138,8 +142,6 @@ Although Azure Container Apps is more complex and expensive than a simple App Se
 
 The Technicians Manager component acts as caching layer in front of the external Technicians API. It is a C# HTTP server providing REST API to Backend component.
 
-**Configuration:**
-
 ## Technicians Cache
 
 **Type:** Table Storage
@@ -165,7 +167,7 @@ The Backend App Service provides the read-oriented API layer for the Service Sup
 
 **Configuration:**
 
-- All backend anomaly queries SHALL target a single partition key
+- All backend anomaly queries target a single partition key
 - The backend queries Anomalies R exclusively and does not directly access Anomalies W
 - Backend expects the Technicians Manager provided by Cloud Platform Team as a caching layer to be available
   - In case of its unavailability, Backend tries to access the Technicians API directly.
