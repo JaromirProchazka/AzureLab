@@ -237,8 +237,8 @@
     {
       "id": "z5KEt0_4ThSnU-12DREhm",
       "type": "text",
-      "x": 1527.4664815266929,
-      "y": 867.5666834513347,
+      "x": 1556.4570886695096,
+      "y": 871.1904402254568,
       "width": 335.6197204589844,
       "height": 25,
       "angle": 0,
@@ -254,11 +254,11 @@
       "index": "a9",
       "roundness": null,
       "seed": 485544430,
-      "version": 310,
-      "versionNonce": 1056506418,
+      "version": 348,
+      "versionNonce": 11988009,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1778775517949,
+      "updated": 1779367408500,
       "link": null,
       "locked": false,
       "text": "Machine Learning Engineering Team",
@@ -376,8 +376,8 @@
     {
       "id": "CRBDePqYKchIAaa4OX22j",
       "type": "text",
-      "x": -218.12291876380976,
-      "y": 864.255528690927,
+      "x": -4.318020510296094,
+      "y": 866.067545315448,
       "width": 359.85260009765625,
       "height": 27.777827021963507,
       "angle": 0,
@@ -393,11 +393,11 @@
       "index": "aE",
       "roundness": null,
       "seed": 23743598,
-      "version": 180,
-      "versionNonce": 104839329,
+      "version": 292,
+      "versionNonce": 1735631113,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1779277961323,
+      "updated": 1779367414341,
       "link": null,
       "locked": false,
       "text": "Service Support Application Team",
@@ -2572,7 +2572,7 @@
       "x": 1041.4317874605695,
       "y": 594.263553558834,
       "width": 686.631881047809,
-      "height": 126.31211729515076,
+      "height": 122.60895306800478,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "#a5d8ff",
@@ -2588,8 +2588,8 @@
         "type": 2
       },
       "seed": 1585357166,
-      "version": 380,
-      "versionNonce": 775423790,
+      "version": 648,
+      "versionNonce": 418887399,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2597,7 +2597,7 @@
           "id": "-Kkm0bszTN3G5Q3d2tHQ4"
         }
       ],
-      "updated": 1778775891804,
+      "updated": 1779368898771,
       "link": null,
       "locked": false,
       "points": [
@@ -2606,8 +2606,12 @@
           0
         ],
         [
+          -590.7893479950891,
+          45.82441612560183
+        ],
+        [
           -686.631881047809,
-          126.31211729515076
+          122.60895306800478
         ]
       ],
       "startBinding": {
@@ -3733,43 +3737,6 @@
       "verticalAlign": "middle",
       "containerId": "G42iILwnADKrTxQPHVIwG",
       "originalText": "offload state",
-      "autoResize": true,
-      "lineHeight": 1.25
-    },
-    {
-      "id": "CN6DU8P4P_e5_6ffT0EX3",
-      "type": "text",
-      "x": 1776.7033362731033,
-      "y": 568.5945474114377,
-      "width": 8,
-      "height": 25,
-      "angle": 0,
-      "strokeColor": "#2f9e44",
-      "backgroundColor": "#a5d8ff",
-      "fillStyle": "hachure",
-      "strokeWidth": 2,
-      "strokeStyle": "dashed",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": null,
-      "index": "b0W",
-      "roundness": null,
-      "seed": 869466704,
-      "version": 3,
-      "versionNonce": 136196784,
-      "isDeleted": true,
-      "boundElements": null,
-      "updated": 1779348348499,
-      "link": null,
-      "locked": false,
-      "text": "",
-      "fontSize": 20,
-      "fontFamily": 5,
-      "textAlign": "center",
-      "verticalAlign": "middle",
-      "containerId": "G42iILwnADKrTxQPHVIwG",
-      "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25
     }
